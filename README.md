@@ -1,20 +1,21 @@
-#The-Java-Guesser
-#Main Program
-##Start program.
-##Display the menu:
-##0) Exit
-##1) Human Guesser
-##2) Computer Guesser
-##Ask the user to enter a number from 0–2.
-##If the user enters 1, run the Human Guesser game.
-##If the user enters 2, run the Computer Guesser game.
-##If the user enters 0, exit the program.
-##Repeat the menu until the user chooses 0.
+The-Java-Guesser
+Main Program
+Start program.
+Display the menu:
 
-#Human Guesser Algorithm
-##Generate a random number between 1 and 100.
-##Set a guess counter to 1.
-##Ask the user to guess the number.
+0) Exit
+1) Human Guesser
+2) Computer Guesser
+Ask the user to enter a number from 0–2.
+If the user enters 1, run the Human Guesser game.
+If the user enters 2, run the Computer Guesser game.
+If the user enters 0, exit the program.
+Repeat the menu until the user chooses 0.
+
+Human Guesser Algorithm
+Generate a random number between 1 and 100.
+Set a guess counter to 1.
+Ask the user to guess the number.
 If the guess is lower than the number:
 Print "too low..."
 If the guess is higher than the number:
